@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Thai Van Hoa - CV</title>
+</head>
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Thai Van Hoa</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/profile-photo.png" alt="profile image" class="home__img">
+                            <h1 class="home__title">THAI VAN <b>HOA</b></h1>
+                            <h3 class="home__profession">IoT Intern Developer</h3>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> Ngu Hanh Son, Da Nang
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> thaivanhoa2002@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> 0345096350
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>          
+                
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+                    <div class="social__container bd-grid">
+                        <a href="https://github.com/thaivanhoa37" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> thaivanhoa37
+                        </a>
+                        <a href="https://github.com/thaivanhoa" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> thaivanhoa
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile__description">
+                        Final-year IoT and Robotics student at Vietnam-Korea University, passionate about smart IoT solutions. 
+                        Experienced in automation, gesture control, and health monitoring using Raspberry Pi, ESP32, and Node-RED. 
+                        Seeking an internship to apply my skills in IoT development and contribute to innovative projects.
+                    </p>
+                    <div class="profile__goals">
+                        <p><strong>Short-term Goal:</strong> Gain hands-on experience in IoT projects, master MQTT and LoRa, and secure a full-time role.</p>
+                        <p><strong>Long-term Goal:</strong> Become an IoT expert, focusing on smart automation and accessibility solutions.</p>
+                    </div>
+                </section>
+                
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+
+                            </div>
+                            <div class="education__data bd-grid">
+                                <li></li>
+                                <h3 class="education__title">IoT & Robotics</h3>
+                                <span class="education__studies">Vietnam-Korea University of Information and Communication Technology</span>
+                                <span class="education__year">2021 - Present</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== SKILLS ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Python, C/C++, HTML/CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> ESP32, ESP8266, Raspberry Pi, Arduino
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> MQTT, LoRa, Node-RED, PCB Design
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Git, Linux, OpenCV, FreeRTOS 
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Flutter, Signal Processing, VS Code
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Altium Designer, Eagle CAD, Arduino IDE
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                 <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Environmental Monitoring with Node-RED</h3>
+                                <span class="experience__company">2024 | GitHub</span>
+                                <p class="experience__description">
+                                    Built an IoT system using ESP32 and various sensors to monitor environmental conditions.
+                                    Implemented a Node-RED dashboard for real-time visualization and control.<br>
+                                    <strong>Technologies:</strong> ESP32, Node-RED, MQTT, DHT11/AHT20, Real-time Dashboard<br>
+                                    <strong>Features:</strong> Real-time monitoring, automated device control, data logging<br>
+                                    <strong>Link:</strong> <a href="https://github.com/thaivanhoa37/environmental-monitoring-system" target="_blank">View Project</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Sign Language IoT Control System</h3>
+                                <span class="experience__company">2024 - 2025 | GitHub</span>
+                                <p class="experience__description">
+                                    Created an innovative system combining sign language detection with IoT control.
+                                    Uses Raspberry Pi Camera and ESP32 for gesture-based device control.<br>
+                                    <strong>Technologies:</strong> Raspberry Pi, OpenCV, ESP32, MQTT, MediaPipe<br>
+                                    <strong>Features:</strong> Real-time gesture recognition, device control, voice feedback<br>
+                                    <strong>Link:</strong> <a href="https://github.com/thaivanhoa37/Sign-Language-Controlled-IoT-Relay-System-with-Raspberry-Pi-and-ESP32" target="_blank">View Project</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">ESP32-CAM Smart Car</h3>
+                                <span class="experience__company">2024 | GitHub</span>
+                                <p class="experience__description">
+                                    Developed an autonomous smart car with live video streaming and obstacle detection.
+                                    Implemented web-based control interface and autonomous navigation.<br>
+                                    <strong>Technologies:</strong> ESP32-CAM, Arduino, Ultrasonic Sensors, Web Interface<br>
+                                    <strong>Features:</strong> Live streaming, autonomous navigation, obstacle avoidance<br>
+                                    <strong>Link:</strong> <a href="https://github.com/thaivanhoa37/ESP32-CAM-Smart-Car-with-Obstacle-Avoidance-and-Live-Streaming" target="_blank">View Project</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">BMP280/AHT20 IoT System</h3>
+                                <span class="experience__company">2024 | GitHub</span>
+                                <p class="experience__description">
+                                    Engineered an environmental monitoring system using high-precision sensors.
+                                    Created PCB design and implemented MQTT communication.<br>
+                                    <strong>Technologies:</strong> ESP32, BMP280, AHT20, PCB Design<br>
+                                    <strong>Features:</strong> High-precision monitoring, custom PCB, data visualization<br>
+                                    <strong>Link:</strong> <a href="https://github.com/thaivanhoa37/IoT-Environmental-Control-System-with-BMP280-AHT20-Sensors" target="_blank">View Project</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">FreeRTOS Applications</h3>
+                                <span class="experience__company">2024 | GitHub</span>
+                                <p class="experience__description">
+                                    Implemented real-time operating system concepts for IoT applications.
+                                    Focused on efficient task scheduling and resource management.<br>
+                                    <strong>Technologies:</strong> FreeRTOS, ESP32, Task Management<br>
+                                    <strong>Features:</strong> Multi-tasking, resource optimization, real-time processing<br>
+                                    <strong>Link:</strong> <a href="https://github.com/thaivanhoa37/FreeRTOS" target="_blank">View Project</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Health Pulse ESP32 App</h3>
+                                <span class="experience__company">2024 | GitHub</span>
+                                <p class="experience__description">
+                                    Developed a health monitoring system using MAX30102 sensor to measure heart rate and SpO2 levels.
+                                    Created a Flutter mobile app for real-time data visualization.<br>
+                                    <strong>Technologies:</strong> ESP32, MAX30102, Flutter, BLE, Arduino<br>
+                                    <strong>Features:</strong> Real-time health monitoring, mobile app interface, BLE communication<br>
+                                    <strong>Link:</strong> <a href="https://github.com/ThaiVanHoa37/health-pulse-esp32-app" target="_blank">View Project</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">4-DOF Robotic Arm with MATLAB</h3>
+                                <span class="experience__company">2024 | GitHub</span>
+                                <p class="experience__description">
+                                    Designed and implemented a 4-DOF robotic arm system with MATLAB simulation and control.
+                                    Developed forward and inverse kinematics algorithms for precise movement.<br>
+                                    <strong>Technologies:</strong> MATLAB, Robotics System Toolbox, Arduino<br>
+                                    <strong>Features:</strong> Forward/Inverse Kinematics, 3D Simulation, Real-time Control<br>
+                                    <strong>Link:</strong> <a href="https://github.com/thaivanhoa37/Robotic_Arm_4_DOF_MATLAB" target="_blank">View Project</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Arduino VKU Projects</h3>
+                                <span class="experience__company">2023 - 2024 | GitHub</span>
+                                <p class="experience__description">
+                                    Collection of Arduino-based projects developed at VKU, including sensors integration and automation systems.
+                                    Implemented various hardware interfacing and control algorithms.<br>
+                                    <strong>Technologies:</strong> Arduino, Various Sensors, Motor Control, LCD Displays<br>
+                                    <strong>Features:</strong> Sensor Data Processing, Motor Control, User Interfaces<br>
+                                    <strong>Link:</strong> <a href="https://github.com/thaivanhoa37/Arduno_VKU" target="_blank">View Project</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <!-- <section class="languages section">
+                    <h2 class="section-title"></h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </section> -->
+            </div>
+        </div>        
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
